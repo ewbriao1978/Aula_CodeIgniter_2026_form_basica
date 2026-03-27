@@ -8,7 +8,7 @@ Model ;(
 -> para melhorar a vida de vocês : aumentar nível de debug
 renomear aqui "env"  para ".env"
 Mudar linha onde menciona 
-# CI_ENVIRONMENT = production
+## CI_ENVIRONMENT = production (remover o hashtag)
 para 
 CI_ENVIRONMENT = development
 
