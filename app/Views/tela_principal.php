@@ -2,7 +2,8 @@
 
 <p> Bem Vindo ao CodeIgniter 4 </p>
 <br>
-<a href="/formulario"> Ir para o formulário </a>
+<a href="/formulario"> Ir para o formulário </a> <br>
+<a href="/outra_tela"> Apresentar pessoas! </a> <br>
 <br>
 
 
@@ -12,4 +13,3 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg/250px-The_Legend_of_Zelda_Breath_of_the_Wild.jpg" alt="The Legend of Zelda: Breath of the Wild">
 
 
-<a href="/outra_tela"> Ir para outra tela </a>
