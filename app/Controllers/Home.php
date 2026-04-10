@@ -44,6 +44,23 @@ class Home extends BaseController
         return redirect()->to('/outra_tela');
     }
 
+    public function editarPessoa()
+    {
+        $id = $this->request->getPost('id_para_editar');
+        $pessoa = $this->pessoasModel->find($id); // select * from pessoas where id = $id
+        $data['pessoa'] = $pessoa;
+        return view('formulario_editar', $data);
+    }
+
+    public function updatePessoa()
+    {
+        $id = $this->request->getPost('id_para_editar');
+        $data['nome'] = $this->request->getPost('nome');
+        $data['email'] = $this->request->getPost('email');
+        $this->pessoasModel->update($id, $data);
+        return redirect()->to('/outra_tela');
+    }
+
 
 
 

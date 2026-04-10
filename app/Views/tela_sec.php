@@ -15,7 +15,7 @@
 
             <td>
 
-            <form action="remover" method="post">
+            <form action="/remover" method="post">
                 <input type="hidden" name="id_para_remover" value="<?= $pessoa['id'] ?>">
                 <input type="submit" value="Remover">
             </form>
@@ -23,7 +23,10 @@
 
             </td>
             <td>
-                Botao   
+                <form action="/editar" method="post">
+                <input type="hidden" name="id_para_editar" value="<?= $pessoa['id'] ?>">
+                <input type="submit" value="Editar">
+            </form>   
             </td>
 
 
