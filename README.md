@@ -1,3 +1,10 @@
+## Atenção -> coloquei três vídeos abaixo para vocês!!
+
+[ Video 1 - Codeigniter ](https://youtu.be/5FDs_Es1GjE)
+[ Vídeo 2 - Codeigniter ](https://youtu.be/_dTHMBUmMWQ) 
+[ Vídeo 3 - Codeigniter ](https://youtu.be/nf0dgtWmAA8)
+
+
 
 App/View/*
 App/Controller/Home.php
